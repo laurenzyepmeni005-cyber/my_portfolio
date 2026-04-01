@@ -5,15 +5,15 @@ $dotenv = Dotenv\Dotenv::createImmutable(_DIR_);
 $dotenv->load();
 
 $key = $_ENV['SUPABASE_SERVICE_ROLE_KEY'];
-$url = $_ENV['SUPABASE_URL'] . "/rest/v1/contacts";
+$url = $_ENV['SUPABASE_URL'] . "/rest/v1/akiba";
 
 
 $data = [
      "Name" => $_POST [ "Name"],
      "Email" => $_POST [ "Email"],
      "Phone" => $_POST [ "Phone"],
-     "Message" => $_POST [ "message"],
-     "Subject" => $_POST [ "subject"],
+     "Message" => $_POST [ "Message"],
+     "Subject" => $_POST [ "Subject"],
      
 ];
 
