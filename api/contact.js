@@ -32,7 +32,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         Name,
         Email,
-        Phone: Phone || null,
+        Phone: Phone || "1324567",
         Subject: subject || null,
         Message: message,
       }),
@@ -59,3 +59,5 @@ export default async function handler(req, res) {
     });
   }
 }
+
+
