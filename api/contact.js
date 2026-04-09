@@ -32,7 +32,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         Name,
         Email,
-        Phone: Phone || "1324567",
+        Phone : Phone || null,
         Subject: subject || null,
         Message: message,
       }),
