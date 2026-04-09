@@ -32,8 +32,8 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         Name,
         Email,
-        Phone : Phone || null,
-        Subject: subject || null,
+        Phone : Phone ||1 ,
+        Subject: subject || 1,
         Message: message,
       }),
     });
