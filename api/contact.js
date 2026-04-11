@@ -33,7 +33,7 @@ export default async function handler(req, res) {
         Name,
         Email,
         Phone : Phone || null,
-        Subject: subject || null,
+        subject: subject || null,
         Message: message,
       }),
     });
