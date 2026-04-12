@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { Name, Email, Phone, subject, message } = req.body || {};
+    const { Name, Email, Phone, Subject, message } = req.body || {};
 
     if (!Name || !Email || !message) {
       return res.status(400).json({
