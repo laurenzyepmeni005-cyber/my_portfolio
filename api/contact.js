@@ -1,8 +1,3 @@
-emailjs.init({
-publicKey: "KnfQQ2hk0biOt1Cu7"
-})
-
-
 
 
 export default async function handler(req, res) {

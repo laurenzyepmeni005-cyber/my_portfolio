@@ -10,7 +10,7 @@
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
-<script src="contact.js"></script>
+<script src="contact.js" defer></script>
 </head>
 <body>
     
@@ -224,7 +224,7 @@ I am curious, independent, and eager to learn. My goal is to gradually turn idea
 
 <section class="contact" id="contact">
 <h2 class="section-title"> Contact <span>Me</span></h2>
-<form action="/api/contact.js" method="post">
+<form  id="contactForm">
     <div class="input-box">
         <input type="text" name="Name" placeholder="Name" required>
         <input type="email" name="Email" placeholder="Email" required>
