@@ -33,11 +33,11 @@ export default async function handler(req, res) {
         Name,
         Email,
         Phone : Phone || null,
-        
+        Subject: Subject || null,
         Message: message,
       }),
     });
-
+    console.log("body", req.body);
     const data = await response.text();
 
     if (!response.ok) {
