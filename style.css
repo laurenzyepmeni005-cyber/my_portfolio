@@ -434,7 +434,7 @@ header.sticky{
 
 form input[type="submit"]{
    cursor: pointer;
-   background: none;
+   background: var(--bg2);
 
 }
 
