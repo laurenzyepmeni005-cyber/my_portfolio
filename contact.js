@@ -40,7 +40,7 @@ async function submitForm() {
 
     const result = await res.json();
     console.log(result);
-
+    form.reset();
   } catch (err) {
     console.error(err);
   }

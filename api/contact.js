@@ -55,6 +55,7 @@ export default async function handler(req, res) {
       success: true,
       message: "Message envoyé avec succès.",
       data: data ? JSON.parse(data) : null,
+      
     });
   } catch (error) {
     return res.status(500).json({
